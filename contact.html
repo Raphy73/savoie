@@ -18,6 +18,23 @@
         height: 100vh;
     }
 
+    nav {
+      position: absolute;
+      top: 50%;
+      left: 20px;
+      display: flex;
+      flex-direction: column;
+    }
+    nav a {
+      font-size: 25px;
+      color: pink;
+      text-decoration: none;
+      margin: 0;
+      padding: 0;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+    }
+
     .left {
         width: 50%;
         height: 100%;
@@ -100,7 +117,11 @@
 
 </style>
 <body>
- 
+    <nav>
+        <a href="/savoie/index.html">Accueil</a>
+        <a href="/savoie/contact.html">Contact</a>
+        <a href="/savoie/about.html">About</a>
+    </nav>
 
         <div class="left">
             <h1>Contactez </br>nous</h1>
